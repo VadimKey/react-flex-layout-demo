@@ -1,3 +1,7 @@
+Demo: https://vadimkey.github.io/react-flex-layout-demo
+
+How to integrate: https://github.com/gitname/react-gh-pages
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
