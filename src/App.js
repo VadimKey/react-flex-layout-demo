@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import FlexLayout from "flexlayout-react";
+import layout_model_json from "./model";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+<link rel="stylesheet" href="node_modules/flexlayout-react/style/dark.css" />
 
-export default App;
+class Main extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {model: FlexLayout.Model.fromJson(layout_model_json)}; 
+    this.state.model.setOnAllowDrop(this.allowDrop);
+  }
+
+  allowDrop(dragNode, dropInfo) {
+    const dropNode = dropInfo.node;
+
+    // prevent non-border tabs dropping into borders
+    if (dropNode.getType() === "border" 
+      && (dragNode.getParent() == null || dragNode.getParent().getType() !== "border")) {
+        return false;
+    }
+
+    // prevent border tabs dropping into main layout
+    if (dropNode.getType() !== "border"
+      && (dragNode.getParent() != null && dragNode.getParent().getType() === "border") ) {
+        return false;
+    }
+
+    return true;
+  }
+
+  factory = (node) => {
+    const component = node.getComponent();
+    if (component === "grid") {
+      return <div className="panel">Panel {node.getName()}</div>;
+    }
+  }
+
+  render() {
+    return(
+      <FlexLayout.Layout model={this.state.model} factory={this.factory}/>
+    );
+  }
+
+};
+
+ReactDOM.render(<Main/>, document.getElementById("root"));
+
+export default Main;
