@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/react-flex-layout-demo/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/react-flex-layout-demo/static/js/main.410f0cf8.chunk.js",
-    "main.js.map": "/react-flex-layout-demo/static/js/main.410f0cf8.chunk.js.map",
-    "runtime-main.js": "/react-flex-layout-demo/static/js/runtime-main.20c775a9.js",
-    "runtime-main.js.map": "/react-flex-layout-demo/static/js/runtime-main.20c775a9.js.map",
-    "static/js/2.61ee74e6.chunk.js": "/react-flex-layout-demo/static/js/2.61ee74e6.chunk.js",
-    "static/js/2.61ee74e6.chunk.js.map": "/react-flex-layout-demo/static/js/2.61ee74e6.chunk.js.map",
-    "static/js/3.0170c4d4.chunk.js": "/react-flex-layout-demo/static/js/3.0170c4d4.chunk.js",
-    "static/js/3.0170c4d4.chunk.js.map": "/react-flex-layout-demo/static/js/3.0170c4d4.chunk.js.map",
+    "main.css": "/react-flex-layout-demo/static/css/main.c0477975.chunk.css",
+    "main.js": "/react-flex-layout-demo/static/js/main.ff3d5d24.chunk.js",
+    "main.js.map": "/react-flex-layout-demo/static/js/main.ff3d5d24.chunk.js.map",
+    "runtime-main.js": "/react-flex-layout-demo/static/js/runtime-main.dcef679f.js",
+    "runtime-main.js.map": "/react-flex-layout-demo/static/js/runtime-main.dcef679f.js.map",
+    "static/css/2.5572f91b.chunk.css": "/react-flex-layout-demo/static/css/2.5572f91b.chunk.css",
+    "static/js/2.f5f9d1e4.chunk.js": "/react-flex-layout-demo/static/js/2.f5f9d1e4.chunk.js",
+    "static/js/2.f5f9d1e4.chunk.js.map": "/react-flex-layout-demo/static/js/2.f5f9d1e4.chunk.js.map",
+    "static/js/3.b14b7173.chunk.js": "/react-flex-layout-demo/static/js/3.b14b7173.chunk.js",
+    "static/js/3.b14b7173.chunk.js.map": "/react-flex-layout-demo/static/js/3.b14b7173.chunk.js.map",
     "index.html": "/react-flex-layout-demo/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/react-flex-layout-demo/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.61ee74e6.chunk.js.LICENSE.txt": "/react-flex-layout-demo/static/js/2.61ee74e6.chunk.js.LICENSE.txt"
+    "static/css/2.5572f91b.chunk.css.map": "/react-flex-layout-demo/static/css/2.5572f91b.chunk.css.map",
+    "static/css/main.c0477975.chunk.css.map": "/react-flex-layout-demo/static/css/main.c0477975.chunk.css.map",
+    "static/js/2.f5f9d1e4.chunk.js.LICENSE.txt": "/react-flex-layout-demo/static/js/2.f5f9d1e4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.20c775a9.js",
-    "static/js/2.61ee74e6.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.410f0cf8.chunk.js"
+    "static/js/runtime-main.dcef679f.js",
+    "static/css/2.5572f91b.chunk.css",
+    "static/js/2.f5f9d1e4.chunk.js",
+    "static/css/main.c0477975.chunk.css",
+    "static/js/main.ff3d5d24.chunk.js"
   ]
 }
